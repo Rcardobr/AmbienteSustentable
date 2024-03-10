@@ -6,22 +6,30 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Ambientame</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles2.css" rel="stylesheet" />
+        <link href="css/gnstyles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#!">Ambientame</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">|
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Index2.html">(Algo de no se donde)</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index3.html">Home2</a></li>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Ambientame</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">La Tierra</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index2.html">(Algo de no se donde)</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index3.html">Principios basicos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Agenda 21</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Economía</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Participacion Social</a></li>
@@ -30,53 +38,169 @@
                 </div>
             </div>
         </nav>
-        <!-- Page Content-->
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>El Planeta Tierra como Ecosistema</h1>
+                            <span class="subheading"><i>"Primero fue necesario civilizar al hombre en 
+                                su relacion con el hombre. Ahora es necesario civilizar al hombre en su 
+                                relación con la naturaleza y los animales." <br>Victor Hugo</i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
         <div class="container px-4 px-lg-5">
-            <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/img1.jpg" alt="..." /></div>
-                <div class="col-lg-5">
-                    <h1 class="font-weight-light">¿Qué es el Planeta Tierra?</h1>
-                    <p>La Tierra, al planeta en el que habitamos. Es el tercer planeta del sistema solar comenzando a contar desde el Sol, ubicado entre Venus y Marte. Según nuestro conocimiento actual, es el único que alberga vida en todo el sistema solar. La Tierra es un ecosistema o sistema viviente caracterizado por ser finito, en homoestasis y sustentble.</p>
-                </div>
-            </div>
-            <!-- Call to Action-->
-            <div class="card text-white bg-secondary my-5 py-4 text-center">
-                <div class="card-body"><p class="text-white m-0"><h3>Los rasgos más sobresalientes de la Tierra son los siguientes:</h3></p></div>
-            </div>
-            <!-- Content Row-->
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <p class="card-text">Es el unico lugar del universo donde se ha confirmado hasta ahora que existe vida.</p>
-                            <p>Ha evolucionado mediante procesos geologicos y biologicos</p>
-                        </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
+                            <h2 class="post-title">Los rasgos más sobresalientes de la Tierra son los siguientes:</h2>
+                            <h3 class="post-subtitle"><ul>
+                                <li>Es el unico lugar del universo donde se ha confirmado hasta ahora que existe vida.</li>
+                                <li>Ha evolucionado mediante procesos geologicos y biologicos</li>
+                                <li>Su superficie externa se divide en litósfera e hidrósfera, donde la litósfera está fragmentada en una serie de placas que se desplazan sobre el manto terrestre y se sitúan principalmente en el hemisferio norte. La hidrósfera está constituida principalmente por océanos.</li>
+                                <li>Su interior permanece activo, con una gruesa capa de materiales fundidos y un núcleo rico en hierro que genera un campo magnetico</li>
+                            </ul></h3>
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <p class="card-text">Su superficie externa se divide en litósfera e hidrósfera, donde la litósfera está fragmentada en una serie de placas que se desplazan sobre el manto terrestre y se sitúan principalmente en el hemisferio norte. La hidrósfera está constituida principalmente por océanos.</p>
-                        </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
+                            <h2 class="post-title">¿Qué es el Planeta Tierra?</h2>
+                            <h3 class="post-subtitle">La Tierra, al planeta en el que habitamos. Es el tercer planeta del sistema solar comenzando a contar desde el Sol, ubicado entre Venus y Marte. Según nuestro conocimiento actual, es el único que alberga vida en todo el sistema solar. La Tierra es un ecosistema o sistema viviente caracterizado por ser finito, en homoestasis y sustentble.</h3>
+                        </a>   
                     </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <p class="card-text">Su interior permanece activo, con una gruesa capa de materiales fundidos y un núcleo rico en hierro que genera un campo magnetico</p>
-                        </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
+                            <h2 class="post-title">La Tierra es un sistema viviente</h2>
+                            <h3 class="post-subtitle">La Tierra, llamada también Gaia, es un sistema viviente o ecosistema por sí misma y
+                                esta característica está definida por la interacción de los diversos ecosistemas acuáticos y terrestres
+                                que la integran y que al evolucionar mediante procesos geoquímicos
+                                (abióticos) y biológicos,(bióticos) determinaron las condiciones iniciales apropiadas para el inicio
+                                de la vida y la posterior consolidación de la biosfera.</h3>
+                        </a>
                     </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
+                            <h2 class="post-title">La Tierra es finita en espacio, recursos y sustentabilidad</h2>
+                            <h3 class="post-subtitle">La Tierra. a pesar de su inmensidad y riqueza de recursos se caracteriza por ser finita no
+                                sólo en su dimensión o tamaño, 12.756.3 km (diámetro de la Tierra), sino también en su espacio y
+                                recursos disponibles para eI hombre, La Tierra, también llamada el "planeta azul" por eI color azul que la caracteriza en su superfi-
+                                cie, está cubierta en un por la hidrosfera ( 1.300 millones de kilómetros cúbicos de agua) donde
+                                97% son océanos (agua salada). 2% hielo glaciar de las zonas polares y partes altas de las montañas
+                                (28.3 millones de kmX). y que a pesar de ser agua dulce, no está disponible ni accesible al ser hu-
+                                mano. Solamente eI IC/c (8.1 millones de km3) de toda el agua presente en eI planeta es agua dulce,
+                                accesible y disponible para el consumo de los seres vivos. Actualmente, la población
+                                mundial consume el del agua dulce disponible (Linden, 2000).
+                                Como se observa en la figura 1.2, el 30% restante es la litosfera (suelo) o corteza terrestre,
+                                donde corresponde a las áreas polares, desiertos y montañas, que no son aprovechables por eI
+                                ser humano: 32% es área de bosque; 25% pastizales; y del de la superficie continental, el ser
+                                humano ha modificado el uso del suelo de áreas naturales a áreas agropecuarias y solamente es
+                                ocupada por asentamientos humanos (ciudades).
+                                Igualrnente, los recursos de la TielTa son finitos con base en su disponibilidad y accesibilidad, y
+                                de acuerdo con esta particularidad podemos clasificar los recursos (energía y materia) presentes en
+                                la Tierra en recursos permanentes o inagotables, recursos agotables o no renovables y en recursos
+                                renovables.
+                                Los recursos permanentes son inagotables en la escala de tiempo humano, aunque puede
+                                haber variación en la distribución espacial y temporal del recurso (energía solar, vientos, mareas
+                                y suelo). Los recursos agotables o no renovables existen en la Tierra en unacantidad finita o determinada.
+                                </h3>
+                        </a>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
+                            <h2 class="post-title">La Tierra está en equilibrio u homoestasis</h2>
+                            <h3 class="post-subtitle">Otra particularidad que caracteriza a la Tierra como ecosistema es que la biosfera autorregula las
+                                condiciones del planeta (procesos geofísicos y geoquímicos) para mantener estables o en equilibrio
+                                condiciones tales como: la temperatura global de la superficie de la Tierra, la composición atmosfé-
+                                rica y la salinidad en eI océano, para hacer su entorno físico más estable y favorable
+                                para la vida. Esta estabilidad o equilibrio es definida por la Hipótesis de Gaia corno homeostasis.
+                                No obstante que las condiciones del entorno nunca son constantes. sino que se caracterizan por
+                                una variabilidad de hora a hora. de día a día, de temporada a temporada y de año a año, el ecosiste-
+                                ma tiende a ser estable o estar en homeostasis por funcionar en un rango de condiciones o rango de
+                                tolerancia y por 10 tanto en un equilibrio dinámico.
+                                También, esta condición de homeostasis no significa una estabilidad constante o estable
+                                equilibrio como una caracterís'tica fundamental de los ecosistemas, ya que la naturaleza tiende
+                                a desestabilizarlos vía competencia intraespecífica e interespecífica por espacio y recursos, in-
+                                teracciones de presa-depredador, limitación de recursos y disturbios entre otros factores, por 10
+                                que los ecosistemas tienden a ser estables o mantener su equilibrio u homeostasis por desarrollar
+                                mecanismos de restablecimiento, tales corno: inercia o resiliencia, tolerancia y resistencia.</h3>
+                        </a>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a>
+                            <h2 class="post-title">La Tierra es un sistema viviente</h2>
+                            <h3 class="post-subtitle">La Tierra, llamada también Gaia, es un sistema viviente o ecosistema por sí misma y
+                                esta característica está definida por la interacción de los diversos ecosistemas acuáticos y terrestres
+                                que la integran y que al evolucionar mediante procesos geoquímicos
+                                (abióticos) y biológicos,(bióticos) determinaron las condiciones iniciales apropiadas para el inicio
+                                de la vida y la posterior consolidación de la biosfera.</h3>
+                        </a>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
                 </div>
             </div>
         </div>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="js/scripts3.js"></script>
     </body>
 </html>
